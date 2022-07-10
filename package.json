@@ -1,0 +1,36 @@
+{
+  "name": "discordjs-bot",
+  "version": "0.0.1",
+  "description": "Discord Bot base",
+  "main": "bot.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaHl111/discordjs-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord-bot"
+  ],
+  "author": "Crown7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaHl111/discordjs-bot/issues"
+  },
+  "homepage": "https://github.com/MaHl111/discordjs-bot#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "cabin": "^9.1.2",
+    "discord-api-types": "^0.36.1",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1"
+  }
+}
